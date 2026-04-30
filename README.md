@@ -1,20 +1,20 @@
-# 🔐 Vulnerability Scanner Pro
+#  Vulnerability Scanner 
 
 A professional-grade Python-based vulnerability scanner designed to identify common security issues in web applications and network services.
 
 ---
 
-## 🚀 Features
+##  Features
 
-* 🔎 Port scanning using Nmap
-* 🌐 Service detection (HTTP, FTP, SSH, HTTPS)
-* ⚠️ Vulnerability identification
-* 📊 Risk classification (LOW / MEDIUM / HIGH / CRITICAL)
-* 📄 Automated report generation
+*  Port scanning using Nmap
+*  Service detection (HTTP, FTP, SSH, HTTPS)
+*  Vulnerability identification
+*  Risk classification (LOW / MEDIUM / HIGH / CRITICAL)
+*  Automated report generation
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * Python 3
 * Nmap
@@ -23,7 +23,7 @@ A professional-grade Python-based vulnerability scanner designed to identify com
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 app/
@@ -38,7 +38,7 @@ run.sh              # Run script
 
 ---
 
-## ⚡ Usage
+##  Usage
 
 ```bash
 chmod +x run.sh
@@ -63,7 +63,7 @@ Recommendation: Use SFTP instead of FTP
 
 ---
 
-## 🎯 Purpose
+##  Purpose
 
 This project demonstrates:
 
