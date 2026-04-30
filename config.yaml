@@ -1,0 +1,7 @@
+scan:
+  ports: "22,80,443,21"
+
+vuln_checks:
+  ssh: true
+  http: true
+  ftp: true

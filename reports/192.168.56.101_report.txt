@@ -1,0 +1,62 @@
+
+==================================================
+        VULNERABILITY ASSESSMENT REPORT
+==================================================
+
+Target: 192.168.56.101
+Scan Date: 2026-04-30 04:37:17.229876
+Overall Risk Level: CRITICAL
+
+-------------------------------
+OPEN PORTS & SERVICES
+-------------------------------
+
+Port: 21
+Service: ftp
+Version: 
+--------------------------------
+
+Port: 22
+Service: ssh
+Version: 
+--------------------------------
+
+Port: 80
+Service: http
+Version: 
+--------------------------------
+
+Port: 443
+Service: https
+Version: 
+--------------------------------
+
+-------------------------------
+VULNERABILITIES
+-------------------------------
+
+[HIGH] Insecure FTP Service
+Port: 21
+Description: FTP transmits data in plaintext
+Recommendation: Disable FTP or use SFTP
+--------------------------------
+
+[LOW] SSH Service Detected
+Port: 22
+Description: Ensure strong authentication is enabled
+Recommendation: Disable password login, use key-based auth
+--------------------------------
+
+[MEDIUM] Unencrypted HTTP Service
+Port: 80
+Description: HTTP running on port 80
+Recommendation: Redirect HTTP to HTTPS
+--------------------------------
+
+[LOW] HTTPS Service Detected
+Port: 443
+Description: Check SSL/TLS configuration
+Recommendation: Use strong TLS (1.2+), disable weak ciphers
+--------------------------------
+
+============== END OF REPORT ==============
